@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 body {
     font-family: Roboto;
@@ -120,10 +126,7 @@ ul {
 
 .quote {
     background-color: #e5e7eb;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-right: 320px;
-    padding-left: 320px;
+    padding : 150px 450px;
     font-size: 36px;
     color: #1f2937;
     display: flex;
@@ -142,4 +145,63 @@ ul {
     display: flex;
     justify-content: right;
     font-weight: 900;
+}
+
+.Action {
+    display: flex;
+    padding-top: 100px 70px;
+    justify-content: center;
+}
+
+.rectangle {
+    height: 150px;
+    width: 1300px;
+    background-color: #3B82F6;
+    display: flex;
+    flex-direction: row;
+    margin: 100px 70px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Action-left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.Action-right {
+    display: flex;
+    padding-right: 100px;
+}
+
+.sign-up2 {
+    border: solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 5px;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.third-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 600;
+}
+
+.forth-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 100;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
 }
